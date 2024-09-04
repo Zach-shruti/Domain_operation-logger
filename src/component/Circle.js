@@ -6,7 +6,7 @@ const Circle = () => {
     <View style={styles.circleContainer}>
       <View style={styles.circle}>
         <Image
-          source={require('./src/picons/add.png')}
+          source={require('./picons/add.png')}
           style={styles.circleIcon}
         />
       </View>

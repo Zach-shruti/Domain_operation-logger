@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, StyleSheet, ScrollView } from 'react-native';
-import Header from '../component/Header';             // Corrected path
-import Breadcrumb from '../component/Breadcrumb';     // Corrected path
-import ListAttributeTabs from '../component/ListAttributeTabs'; // Corrected path
-import Circle from '../component/Circle';             // Corrected path
-import Footer from '../component/Footer';             // Corrected path
-import BoxAboveFooter from '../component/BoxAboveFooter'; // Added import for the new component
+import Header from './component/Header';             // Corrected path
+import Breadcrumb from './component/Breadcrumb';     // Corrected path
+import ListAttributeTabs from './component/ListAttributeTabs'; // Corrected path
+import Circle from './component/Circle';             // Corrected path
+import Footer from './component/Footer';             // Corrected path
+import BoxAboveFooter from './component/BoxAboveFooter'; // Added import for the new component
 
 const DLlistsview = () => {
   return (

@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import Header from '.src/component/Header'; 
-import Breadcrumb from '.src/component/Breadcrumb';  
-import Footer from '.src/component/Footer'; 
+import Header from './component/Header'; 
+import Breadcrumb from './component/Breadcrumb';  
+import Footer from './component/Footer'; 
 
 const SettingPage1 = () => {
   return (

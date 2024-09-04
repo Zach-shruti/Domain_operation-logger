@@ -4,10 +4,10 @@ import { View, Image, StyleSheet } from 'react-native';
 const Header = () => {
   return (
     <View style={styles.header}>
-      <Image source={require('./src/picons/Activity.png')} style={styles.icon} />
+      <Image source={require('./picons/Activity.png')} style={styles.icon} />
       <View style={styles.flexSpace}></View>
       <Image
-        source={require('./src/picons/search.png')}
+        source={require('./picons/search.png')}
         style={[styles.icon, styles.largeIcon]} // Apply additional styling here
       />
     </View>

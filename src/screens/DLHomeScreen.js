@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, StyleSheet, ScrollView, Text, Button } from 'react-native';
-import Header from '../component/Header';             // Corrected path
-import Breadcrumb from '../component/Breadcrumb';     // Corrected path
-import ListAttributeTabs from '../component/ListAttributeTabs'; // Corrected path
-import Circle from '../component/Circle';             // Corrected path
-import Footer from '../component/Footer';             // Corrected path
+import Header from './component/Header';             
+import Breadcrumb from './component/Breadcrumb';     
+import ListAttributeTabs from './component/ListAttributeTabs'; 
+import Circle from './component/Circle';           
+import Footer from './component/Footer';           
 
 const DLHomeScreen = ({ navigation }) => {
   return (

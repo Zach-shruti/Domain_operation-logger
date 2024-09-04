@@ -5,17 +5,17 @@ const Footer = () => {
   return (
     <View style={styles.footer}>
       <Image
-        source={require('./src/picons/domain.png')}
+        source={require('./picons/domain.png')}
         style={styles.footerIcon}
         resizeMode="contain" // Ensure the image scales properly
       />
       <Image
-        source={require('./src/picons/operation.png')}
+        source={require('./picons/operation.png')}
         style={styles.footerIcon}
         resizeMode="contain" // Ensure the image scales properly
       />
       <Image
-        source={require('./src/picons/tivity.png')}
+        source={require('./picons/tivity.png')}
         style={styles.footerIcon}
         resizeMode="contain" // Ensure the image scales properly
       />

@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import Header from '.src/component/Header';
-import Breadcrumb from '.src/component/Breadcrumb';
-import ListAttributeLogTabs from '.src/component/ListAttributeLogTabs';
-import Circle from '.src/component/Circle';
-import Footer from '.src/component/Footer';
-import BoxAboveFooter from '.src/component/BoxAboveFooter'; 
+import Header from './component/Header';
+import Breadcrumb from './component/Breadcrumb';
+import ListAttributeLogTabs from './component/ListAttributeLogTabs';
+import Circle from './component/Circle';
+import Footer from './component/Footer';
+import BoxAboveFooter from './component/BoxAboveFooter'; 
 
 const AListview = () => {
   return (

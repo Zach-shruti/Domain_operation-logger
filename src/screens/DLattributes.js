@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, StyleSheet, ScrollView } from 'react-native';
-import Header from '../component/Header';      
-import Breadcrumb from '../component/Breadcrumb';   
-import ListAttributeTabs from '../component/ListAttributeTabs'; 
-import Circle from '../component/Circle';             
-import Footer from '../component/Footer';   
-import KeyValueBox from '../component/KeyValueBox';   
+import Header from './component/Header';      
+import Breadcrumb from './component/Breadcrumb';   
+import ListAttributeTabs from './component/ListAttributeTabs'; 
+import Circle from './component/Circle';             
+import Footer from './component/Footer';   
+import KeyValueBox from './component/KeyValueBox';   
 
 const DLattributes = () => {
   return (
