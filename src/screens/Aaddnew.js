@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const NewPage = () => {
+const Aaddnew = () => {
   return (
     <View style={styles.container}>
       <View style={styles.rectangle}>
@@ -70,4 +70,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default NewPage;
+export default Aaddnew;

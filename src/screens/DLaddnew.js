@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const App = () => {
+const DLaddnewScreens = () => {
   return (
     <View style={styles.container}>
       <View style={styles.footer}>
@@ -60,4 +60,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default DLaddnewScreens;
