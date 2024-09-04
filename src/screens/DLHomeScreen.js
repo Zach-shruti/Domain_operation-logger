@@ -1,28 +1,24 @@
 import React from 'react';
-import { View, StyleSheet, ScrollView, Text, Button } from 'react-native';
-import Header from './component/Header';             
-import Breadcrumb from './component/Breadcrumb';     
-import ListAttributeTabs from './component/ListAttributeTabs'; 
-import Circle from './component/Circle';           
-import Footer from './component/Footer';           
+import { View, StyleSheet } from 'react-native';
+import Header from './component/Header';
+import Breadcrumb from './component/Breadcrumb';
+import ListAttributeLogTabs from './component/ListAttributeLogTabs';
+import KeyValueBox from './component/KeyValueBox'; 
+import Circle from './component/Circle';
+import Footer from './component/Footer';
 
-const DLHomeScreen = ({ navigation }) => {
+const AHomeScreen = () => {
   return (
     <View style={styles.container}>
       <Header />
-      <ScrollView contentContainerStyle={styles.content}>
+      <View style={styles.contentContainer}>
         <Breadcrumb />
-        <ListAttributeTabs />
-
-        {/* Navigation button to go to Add New Screen */}
-        <View style={styles.buttonContainer}>
-          <Button
-            title="Go to Add New"
-            onPress={() => navigation.navigate('DLAddNew')}
-          />
-        </View>
-      </ScrollView>
-      <Circle />
+        <ListAttributeLogTabs />
+        <KeyValueBox /> 
+      </View>
+      <View style={styles.circleContainer}>
+        <Circle />
+      </View>
       <Footer />
     </View>
   );
@@ -33,17 +29,20 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
   },
-  content: {
-    flexGrow: 1,
-    paddingBottom: 80,  // Ensure there's space for the footer and floating action button
-  },
-  buttonContainer: {
-    marginTop: 20,
+  contentContainer: {
+    flex: 1,
+    justifyContent: 'center',
     alignItems: 'center',
+    paddingBottom: 80,
+  },
+  circleContainer: {
+    justifyContent: 'flex-end',
+    alignItems: 'flex-end',
+    paddingRight: 30,
+    paddingBottom: 30,
   },
 });
 
-export default DLHomeScreen;
-
+export default AHomeScreen;
 
 
