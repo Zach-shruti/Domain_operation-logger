@@ -1,18 +1,16 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
-import Header from './component/Header'; 
-import Breadcrumb from './component/Breadcrumb'; 
-import Footer from './component/Footer'; 
-import KeyValueBox from '/component/KeyValueBox'; 
+import { View, Text, StyleSheet } from 'react-native';
+import Header from './src/component/Header'; 
+import Breadcrumb from './src/component/Breadcrumb';  
+import Footer from './src/component/Footer'; 
 
-const SettingPage2 = () => {
+const SettingPage1 = () => {
   return (
     <View style={styles.container}>
       <Header />
       <View style={styles.contentContainer}>
         <Breadcrumb />
         <View style={styles.largeRectangle}></View>
-        <KeyValueBox />
       </View>
       <Footer />
     </View>
@@ -40,4 +38,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SettingPage2;
+export default SettingPage1;

@@ -1,25 +1,9 @@
 import React from 'react';
-import { View, Image, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 
 const Footer = () => {
   return (
-    <View style={styles.footer}>
-      <Image
-        source={require('./picons/domain.png')}
-        style={styles.footerIcon}
-        resizeMode="contain" // Ensure the image scales properly
-      />
-      <Image
-        source={require('./picons/operation.png')}
-        style={styles.footerIcon}
-        resizeMode="contain" // Ensure the image scales properly
-      />
-      <Image
-        source={require('./picons/tivity.png')}
-        style={styles.footerIcon}
-        resizeMode="contain" // Ensure the image scales properly
-      />
-    </View>
+    <View style={styles.footer}></View>
   );
 };
 
@@ -33,10 +17,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderTopWidth: 1,
     borderTopColor: '#ddd',
-  },
-  footerIcon: {
-    width: 23,   // Increase the width for better clarity
-    height: 23,  // Increase the height for better clarity
   },
 });
 

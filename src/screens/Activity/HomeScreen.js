@@ -1,20 +1,16 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import Header from './component/Header';
-import Breadcrumb from './component/Breadcrumb';
-import ListAttributeLogTabs from './component/ListAttributeLogTabs';
-import KeyValueBox from './component/KeyValueBox'; 
-import Circle from './component/Circle';
-import Footer from './component/Footer';
+import Header from './src/component/Header';
+import Breadcrumb from './src/component/Breadcrumb';
+import Circle from './src/component/Circle';
+import Footer from './src/component/Footer';
 
-const AHomeScreen = () => {
+const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <Header />
       <View style={styles.contentContainer}>
         <Breadcrumb />
-        <ListAttributeLogTabs />
-        <KeyValueBox /> 
       </View>
       <View style={styles.circleContainer}>
         <Circle />
@@ -43,6 +39,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default AHomeScreen;
-
-
+export default HomeScreen;

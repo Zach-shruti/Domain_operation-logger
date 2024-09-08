@@ -1,15 +1,10 @@
 import React from 'react';
-import { View, Image, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 
 const Circle = () => {
   return (
     <View style={styles.circleContainer}>
-      <View style={styles.circle}>
-        <Image
-          source={require('./picons/add.png')}
-          style={styles.circleIcon}
-        />
-      </View>
+      <View style={styles.circle}></View>
     </View>
   );
 };
@@ -28,10 +23,6 @@ const styles = StyleSheet.create({
     borderRadius: 35,
     justifyContent: 'center',
     alignItems: 'center',
-  },
-  circleIcon: {
-    height: 24,
-    width: 24,
   },
 });
 

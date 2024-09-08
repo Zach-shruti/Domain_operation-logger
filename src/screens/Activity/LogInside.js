@@ -1,12 +1,12 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import Header from './components/Header'; 
-import Breadcrumb from './components/Breadcrumb'; 
-import ListAttributeLogTabs from './components/ListAttributeLogTabs'; 
-import Circle from './components/Circle'; 
-import Footer from './components/Footer'; 
+import Header from './src/component/Header'; 
+import Breadcrumb from './src/component/Breadcrumb'; 
+import ListAttributeLogTabs from './src/component/ListAttributeLogTabs'; 
+import Circle from './src/component/Circle'; 
+import Footer from './src/component/Footer'; 
 
-const ALogsInside = () => {
+const LogInside = () => {
   return (
     <View style={styles.container}>
       <Header />
@@ -98,4 +98,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ALogsInside;
+export default LogInside;

@@ -1,13 +1,13 @@
 import React from 'react';
 import { View, StyleSheet, ScrollView } from 'react-native';
-import Header from './component/Header';             // Corrected path
-import Breadcrumb from './component/Breadcrumb';     // Corrected path
-import ListAttributeTabs from './component/ListAttributeTabs'; // Corrected path
-import Circle from './component/Circle';             // Corrected path
-import Footer from './component/Footer';             // Corrected path
-import BoxAboveFooter from './component/BoxAboveFooter'; // Added import for the new component
+import Header from './src/component/Header';             // Corrected path
+import Breadcrumb from './src/component/Breadcrumb';     // Corrected path
+import ListAttributeTabs from './src/component/ListAttributeTabs'; // Corrected path
+import Circle from './src/component/Circle';             // Corrected path
+import Footer from './src/component/Footer';             // Corrected path
+import BoxAboveFooter from './src/component/BoxAboveFooter'; // Added import for the new component
 
-const DLlistsview = () => {
+const ListView = () => {
   return (
     <View style={styles.container}>
       <Header />
@@ -33,4 +33,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default DLlistsview;
+export default ListView;

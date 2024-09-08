@@ -1,13 +1,13 @@
 import React from 'react';
 import { View, StyleSheet, ScrollView } from 'react-native';
-import Header from './component/Header';      
-import Breadcrumb from './component/Breadcrumb';   
-import ListAttributeTabs from './component/ListAttributeTabs'; 
-import Circle from './component/Circle';             
-import Footer from './component/Footer';   
-import KeyValueBox from './component/KeyValueBox';   
+import Header from './src/component/Header';      
+import Breadcrumb from './src/component/Breadcrumb';   
+import ListAttributeTabs from './src/component/ListAttributeTabs'; 
+import Circle from './src/component/Circle';             
+import Footer from './src/component/Footer';   
+import KeyValueBox from './src/component/KeyValueBox';   
 
-const DLattributes = () => {
+const Attribute = () => {
   return (
     <View style={styles.container}>
       <Header />
@@ -42,4 +42,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default DLattributes;
+export default Attribute;

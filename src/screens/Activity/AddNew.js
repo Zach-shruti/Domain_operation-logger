@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const Aaddnew = () => {
+const AddNew = () => {
   return (
     <View style={styles.container}>
       <View style={styles.rectangle}>
@@ -70,4 +70,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Aaddnew;
+export default AddNew ;

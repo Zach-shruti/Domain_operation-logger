@@ -1,16 +1,22 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import Header from './component/Header'; 
-import Breadcrumb from './component/Breadcrumb';  
-import Footer from './component/Footer'; 
+import Header from './src/component/Header'; 
+import Breadcrumb from './src/component/Breadcrumb'; 
+import ListAttributeLogTabs from './src/component/ListAttributeLogTabs'; 
+import Circle from './src/component/Circle'; 
+import Footer from './src/component/Footer'; 
 
-const SettingPage1 = () => {
+const Log = () => {
   return (
     <View style={styles.container}>
       <Header />
       <View style={styles.contentContainer}>
         <Breadcrumb />
+        <ListAttributeLogTabs />
         <View style={styles.largeRectangle}></View>
+      </View>
+      <View style={styles.circleContainer}>
+        <Circle />
       </View>
       <Footer />
     </View>
@@ -36,6 +42,12 @@ const styles = StyleSheet.create({
     marginVertical: 10,
     borderRadius: 5,
   },
+  circleContainer: {
+    justifyContent: 'flex-end',
+    alignItems: 'flex-end',
+    paddingRight: 30,
+    paddingBottom: 30,
+  },
 });
 
-export default SettingPage1;
+export default Log;
