@@ -34,10 +34,9 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-#
-*. babel.config
-
-*. eas.jsn
-
-*. jsconfig.json
+# Ignore configuration files
+babel.config.js
+eas.json
+jsconfig.json
+app.json
 
